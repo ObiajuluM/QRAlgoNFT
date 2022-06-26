@@ -1,0 +1,4 @@
+py-algorand-sdk
+pywebio
+image
+qrcode

@@ -1,0 +1,21 @@
+heroku login
+
+heroku git:remote -a NAME_OF_YOUR_HEROKU_APP
+
+git add .
+
+git commit -am "Deployment commit"
+
+git push heroku master 
+
+
+
+
+OR
+
+
+$ heroku git:clone -a algo-eng
+$ cd algo-eng
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
